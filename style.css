@@ -1,3 +1,7 @@
+:root {
+    --navbar: rgb(65,65,65)
+}
+
 * {
     box-sizing: border-box;
     font-family: Fredoka One, sans-serif;
@@ -10,12 +14,21 @@ body{
     justify-content: center;
     align-items: center;
 }
-.MainText{
+
+.navbar {
+    height: 56px;
+    width: 100%;
+    background: var(--navbar);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainText {
     position: relative;
     font-size: 3em;
-    letter-spacing: 10px;
+    letter-spacing: 3px;
     color: #fff;
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
     outline: none;
     text-align: center;
     user-select: none;
