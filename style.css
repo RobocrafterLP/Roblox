@@ -11,7 +11,6 @@ body{
     position: relative;
     font-size: 3em;
     padding-left: 35%;
-    padding-right: 50%;
     letter-spacing: 10px;
     color: #fff;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
