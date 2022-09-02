@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: Fredoka One, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(40, 40, 40);
+}
+.MainText{
+    position: relative;
+    font-size: 3em;
+    padding-left: 35%;
+    padding-right: 50%;
+    letter-spacing: 10px;
+    color: #fff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    outline: none;
+    text-align: center;
+    user-select: none;
+    text-shadow: 0 0 10px #7023bd,
+    0 0 20px #7023bd,
+    0 0 40px #7023bd,
+    0 0 80px #7023bd,
+    0 0 160px #7023bd,
+    0 0 320px #7023bd;
+}
