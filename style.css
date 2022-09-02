@@ -6,11 +6,13 @@
 
 body{
     background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .MainText{
     position: relative;
     font-size: 3em;
-    padding-left: 35%;
     letter-spacing: 10px;
     color: #fff;
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
